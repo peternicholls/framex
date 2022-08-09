@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Acme\\Todo\\": "src/"
+        }
+    },
+
+    "require": {
+        "clue/framework-x": "dev-main",
+        "php-di/php-di": "^6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
